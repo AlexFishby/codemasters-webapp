@@ -1,7 +1,7 @@
 import React from 'react';
 import RootLayout from '../../components/layout';
 
-export default function Home() {
+const Dashboard = () => {
     return (
         <RootLayout>
             <h1>CodeMasters Dashboard</h1>
@@ -10,4 +10,6 @@ export default function Home() {
             <p>Selecciona una sección en el menú de la izquierda</p>
         </RootLayout>
     );
-}
+};
+
+export default Dashboard;
